@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://vuk:vuk123@social-network-bc9bt.mongodb.net/test?retryWrites=true"
+  "mongoURI": "mongodb+srv://vuk:vuk123@social-network-bc9bt.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "mysecrettoken"
 }

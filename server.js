@@ -6,6 +6,10 @@ const app = express();
 // Connect database
 connectDB();
 
+// Init middleware
+// used to be app.use(bodyParser.json), but now its included in express
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => res.send('API Running'));
 
 // Define routes
