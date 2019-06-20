@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://vuk:vuk123@social-network-bc9bt.mongodb.net/test?retryWrites=true",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientID": "fd8941ea3e441efb4a57",
+  "githubSecret": "2c910140ce322af0d38bbcc1f512fc5f05929d24"
 }

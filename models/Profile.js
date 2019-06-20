@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ProfileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId, // similar what we have when created user in DB ---> .id
-    ref: 'user' // user model reference
+    ref: 'user' // user model reference, collection in which ID is gonna be searched for
   },
   company: {
     type: String
@@ -42,7 +42,7 @@ const ProfileSchema = new mongoose.Schema({
         type: String
       },
       from: {
-        from: Date,
+        type: Date,
         required: true
       },
       to: {
@@ -72,7 +72,7 @@ const ProfileSchema = new mongoose.Schema({
         required: true
       },
       from: {
-        from: Date,
+        type: Date,
         required: true
       },
       to: {
